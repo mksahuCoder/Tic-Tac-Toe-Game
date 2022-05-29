@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2&family=Roboto+Slab:wght@500&family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: rgba(0, 0, 0, 0.836);
+    color: white;
+    font-size: 40px;
+    padding: 10px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.gameContainer{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    width: 100%;
+    height: 88.9vh;
+    color: white;
+}
+
+.container{
+    display: grid;
+    grid-template-rows: repeat(3, 10vw);
+    grid-template-columns: repeat(3, 10vw);
+    margin: 50px;
+}
+
+.box{
+    border: 1px solid white;
+    font-size: 8vw;
+    text-align: center;
+    cursor: pointer;
+}
+.box:hover{
+    background-color: rgba(15, 15, 15, 0.685);
+}
+
+.imgBox img{
+    width: 200px;
+    position: absolute;
+    top: 200px;
+    right: 300px;
+}
+
+.gameInfo{
+    font-family: 'Playball', cursive;
+}
+
+h2{
+    color: rgba(22, 24, 22, 0.651);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.bt{
+    border-top: none;
+}
+
+.bb{
+    border-bottom: none;
+}
+
+.bl{
+    border-left: none;
+}
+
+.br{
+    border-right: none;
+}
